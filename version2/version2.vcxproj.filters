@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PhysicsN">
+      <UniqueIdentifier>{b291973f-733b-4d96-8311-5fbf5a955527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{7a733a52-7e2d-4066-a41c-bea581ce0f2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glut.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="IEMath.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="Manifold.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="Precompiled.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsN.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="rigidBody.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClInclude>
+    <ClInclude Include="poly.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="circ.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Manifold.cpp">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsN.cpp">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\PhysicsN</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
